@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
+
+/*
+=== Media Queries ===
+*/
+/*
+@media screen and (min-width: 768px) {
+    p {}
+    body {}
+}
+
+@media only screen and (min-width: 768px) {
+    img {}
+}
+
+@media only screen and (min-width: 600px) {
+    img {}
+    h4 {}
+}
+@media only screen and (min-width: 768px) {
+    img {}
+}
+*/
+/*
+=============
+List items
+=============
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: none;
+    padding-left: 10px;
+    display: inline-block;
+}
+li {
+    float: left;
+    font-family: 'Righteous', 'bold';
+    font-size: 18px;
+    text-decoration: none;
+    top: 0;
+    overflow: auto;
+    display: inline-block;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    display: inline-block;
+}
+li a:hover:not(.active) {
+    background-color: #e15c05;
+    color: white;
+}
+li a:hover {
+    text-decoration: none;
+    background: white;
+}
+/*
+====================
+        Body
+====================
+*/
+body {
+    background-color: #FF9933;
+}
+header{
+    position: fixed;
+    padding-bottom: 10px;
+    float: left;
+    overflow: auto;
+    padding-right: 20px;
+}
+
+.current {
+    background-color: none;
+    border-bottom: 5px solid #FFFFFF;
+}
+#introduction {
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+    width: 50%;
+    height: 85%;
+    margin: 1px auto;
+    color: white;
+}
+/*
+====================
+        Fonts
+====================
+*/
+h1 {
+    font-size: 18vw;
+    font-family: 'Modak';
+    text-align: center;
+    border-bottom: 5px solid #FFFFFF;
+}
+h4 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: Impact;
+}
+h2 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: Impact;
+}
+p {
+    font-size: 22px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+/*
+====================
+        Extras
+====================
+*/
+img {
+    padding: 0.2em;
+}
+.social {
+    float: right;
+    top: 0;
+    display: inline-block;
+}
+.sampl {
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 25px; 
+    overflow: auto;
+    clear: both;
+}
+i {
+    display: inline-block;
+    overflow: auto;
+    float: right;
+    padding: 0px 10px 0px 0px;
+}
+.abouts {
+    margin-top: 200px
+}
+
