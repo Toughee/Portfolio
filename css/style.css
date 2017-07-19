@@ -1,32 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
-
-/*
-=== Media Queries ===
-*/
-/*
-@media screen and (min-width: 768px) {
-    p {}
-    body {}
-}
-
-@media only screen and (min-width: 768px) {
-    img {}
-}
-
-@media only screen and (min-width: 600px) {
-    img {}
-    h4 {}
-}
-@media only screen and (min-width: 768px) {
-    img {}
-}
-*/
 /*
 =============
 List items
 =============
 */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -47,35 +25,35 @@ li {
 }
 li a {
     display: inline-block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 10px 10px;
     display: inline-block;
 }
 li a:hover:not(.active) {
     background-color: #e15c05;
-    color: white;
+    color: #FFFFFF;
 }
 li a:hover {
     text-decoration: none;
-    background: white;
+    background: #FFFFFF;
 }
 /*
 ====================
         Body
 ====================
 */
+
 body {
     background-color: #FF9933;
 }
-header{
+header {
     position: fixed;
     padding-bottom: 10px;
     float: left;
     overflow: auto;
     padding-right: 20px;
 }
-
 .current {
     background-color: none;
     border-bottom: 5px solid #FFFFFF;
@@ -89,30 +67,28 @@ header{
     width: 50%;
     height: 85%;
     margin: 1px auto;
-    color: white;
+    color: #FFFFFF;
 }
 /*
 ====================
         Fonts
 ====================
 */
+
 h1 {
     font-size: 18vw;
     font-family: 'Modak';
     text-align: center;
     border-bottom: 5px solid #FFFFFF;
 }
-h4 {
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-    font-family: Impact;
+figcaption {
+    color: #FFFFFF;
+    font-size: 20px;
 }
 h2 {
     font-size: 25px;
     text-align: center;
-    color: white;
+    color: #FFFFFF;
     padding-top: 10px;
     font-family: Impact;
 }
@@ -127,8 +103,11 @@ p {
         Extras
 ====================
 */
+
 img {
     padding: 0.2em;
+    width: 100%;
+    height: 100%;
 }
 .social {
     float: right;
@@ -138,7 +117,7 @@ img {
 .sampl {
     text-align: center;
     padding-top: 200px;
-    padding-left: 25px; 
+    padding-left: 35px;
     overflow: auto;
     clear: both;
 }
@@ -148,7 +127,6 @@ i {
     float: right;
     padding: 0px 10px 0px 0px;
 }
-.abouts {
-    margin-top: 200px
+.info {
+    margin-top: 200px;
 }
-
