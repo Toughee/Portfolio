@@ -1,43 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
-
 /*
 =============
 List items
 =============
 */
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: none;
-    padding-left: 10px;
+.menu {
     display: inline-block;
+    padding: 5px 12px 8px 10px;
 }
-li {
-    float: left;
-    font-family: 'Righteous', 'bold';
-    font-size: 18px;
-    text-decoration: none;
-    top: 0;
-    overflow: auto;
-    display: inline-block;
-}
-li a {
-    display: inline-block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 10px;
-    display: inline-block;
-}
-li a:hover:not(.active) {
-    background-color: #e15c05;
-    color: #FFFFFF;
-}
-li a:hover {
-    text-decoration: none;
-    background: #FFFFFF;
+.tools {
+    margin-right: 10px;
 }
 /*
 ====================
@@ -49,12 +22,12 @@ body {
     background-color: #F59552;
 }
 header {
-    position: fixed;
+    position: absolute;
     top: 3%;
     left: 22%;
     text-align: center;
-    padding: 1px 20px 20px 1px;
-    width: 50%;
+    padding: 1px 10px 20px 0px;
+    width: 70%;
     height: 85%;
     overflow: auto;
     display: inline-block;
@@ -62,10 +35,11 @@ header {
 .current {
     background-color: none;
     border-bottom: 5px solid #FFFFFF;
+    border-radius: 10%;
 }
 #introduction {
     position: fixed;
-    top: 50%;
+    top: 30%;
     left: 25%;
     text-align: center;
     padding: 1px 1px 1px 1px;
@@ -90,18 +64,16 @@ figcaption {
     color: #FFFFFF;
     font-size: 15px;
 }
-h2 {
-    font-size: 20px;
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 10px;
-    font-family: Impact;
-}
 p {
-    font-size: 0.95rem;
+    font-size: 0.90rem;
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 100px;
+}
+h5 {
+    color: #FFFFFF;
+    margin: 0px 10px 0px 0px;
+    font-size: 14px;
 }
 h6 {
     color: #FFFFFF;
@@ -119,23 +91,16 @@ img {
     overflow: auto;
     display: inline-block;
 }
-.social {
-    display: inline-block;
-    padding: 1px 20px 10px 20px;
-}
-.sampl {
+.samples {
     text-align: center;
     padding-top: 200px;
     padding-left: 35px;
     overflow: auto;
     clear: both;
 }
-.tools {
-    margin-right: 10px;
-}
 i {
     display: inline-block;
     overflow: auto;
     float: right;
-    padding: 0px 5px 0px 0px;
+    padding-right: 5px;
 }
