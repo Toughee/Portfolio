@@ -16,8 +16,10 @@ List items
     margin-top: 5px;
 }
 .basics {
-    margin-right: 200px;
+        margin-right: 0px;
     margin-top: 10px;
+    position: absolute;
+    left: 30%;
 }
 .tools {
     margin-right: 10px;
@@ -56,8 +58,8 @@ body {
 }
 header {
     position: absolute;
-    top: 2%;
-    left: 41%;
+    top: 1%;
+    left: 42%;
     text-align: center;
     padding: 1px 0px 20px 0px;
     width: 50%;
@@ -70,15 +72,19 @@ header {
     border-bottom: 5px solid #FFFFFF;
     border-radius: 10%;
 }
-#introduction {
+#introduction {/*
     position: fixed;
     padding: 10px 1px 1px 1px;
     top: 20%;
     left: 26.5%;
     width: 45%;
     height: 36%;
-    margin-top: -20px;
+    margin-top: -20px;*/
+    top: 20%;
+    margin-top: 120px;
+    padding: 10px 50px 1px 50px;
     background: #FFFFFF;
+    height: 200px;
     -webkit-box-shadow: 14px 13px 6px 1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 14px 13px 6px 1px rgba(0, 0, 0, 0.75);
     box-shadow: 14px 13px 6px 1px rgba(0, 0, 0, 0.75);
@@ -100,11 +106,9 @@ figcaption {
     font-size: 14px;
 }
 p {
-    font-size: 0.80rem;
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-bottom: 20px;
-    text-align: justify;
+    font-size: 0.95rem;
+    margin: 0px 70px 100px 70px;
+    text-align: center;
 }
 h5 {
     color: #FFFFFF;
@@ -143,7 +147,7 @@ img {
     display: inline-block;
 }
 .samples {
-    margin: -20px 10px 0px 10px;
+    margin: -5px 5px 20px 5px;
     text-align: center;
     padding: 10px 35px 5px 35px;
     overflow: auto;
@@ -163,7 +167,7 @@ i {
     padding-right: 5px;
 }
 .wrk {
-    margin-top: 380px;
-    position: fixed;
-    margin-left: 110px;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
