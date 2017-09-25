@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
 
-@import url('https://fonts.googleapis.com/css?family=Sarpanch');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
 
 html {
     color: #222;
@@ -13,6 +15,9 @@ html {
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 
 ::selection {
@@ -74,7 +79,7 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 10px solid #e44d26;
 }
 
 .footer-container,
@@ -104,8 +109,8 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+    margin-bottom: 8px;
+    padding: 10px 0;
 
     text-align: center;
     text-decoration: none;
@@ -166,23 +171,29 @@ h3 {
     padding-top: 10px;
     font-family: 'Modak', cursive;
 }
+.subber-title {
+    font-size: 4rem;
+}
+.personl-desc {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
 li {
     font-family: 'Righteous', cursive;
 }
 .samples {
-    margin: 1px 30px 10px 30px;
+    margin: 1px 20px 10px 20px;
     border: 2px solid #000;
     text-align: center;
-    padding: 15px 15px -10px 15px;
+    padding: 15px 15px -20px 15px;
     overflow: auto;
     clear: both;
     background: #FFFFFF;
     -webkit-transform: skew(3deg);
     -moz-transform: skew(3deg);
     -o-transform: skew(3deg);
-    -webkit-box-shadow: 14px 13px 6px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 14px 13px 6px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: 14px 13px 6px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
 }
 
 title {
@@ -193,13 +204,13 @@ img {
 }
 .desc {
     color: #000;
-    font-family: 'Sarpanch', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
-
-
-
-
+.works {
+    height: 50%;
+    width: 50%;
+}
 
 
 /* ==========================================================================

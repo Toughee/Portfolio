@@ -1,8 +1,7 @@
 
-# Personal Portfolio repository
+# Repository for my personal portfolio
 
-
-### Tools used
+## Tools used:
 
 ```
 Bootstrap
