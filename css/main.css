@@ -168,7 +168,7 @@ nav a:hover {
 .subber-title,
 h1,
 h3 {
-    padding-top: 10px;
+    padding-top: 8px;
     font-family: 'Modak', cursive;
 }
 .subber-title {
@@ -176,26 +176,11 @@ h3 {
 }
 .personl-desc {
     font-family: 'Encode Sans Expanded', sans-serif;
+    margin-top: -5px;
 }
 li {
     font-family: 'Righteous', cursive;
 }
-.samples {
-    margin: 1px 20px 10px 20px;
-    border: 2px solid #000;
-    text-align: center;
-    padding: 15px 15px -20px 15px;
-    overflow: auto;
-    clear: both;
-    background: #FFFFFF;
-    -webkit-transform: skew(3deg);
-    -moz-transform: skew(3deg);
-    -o-transform: skew(3deg);
-    -webkit-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
-}
-
 title {
     font-family: 'Impact';
 }
@@ -206,12 +191,34 @@ img {
     color: #000;
     font-family: 'Orbitron', sans-serif;
 }
-
+.desdata {
+    margin-left: 20px;
+}
 .works {
     height: 50%;
     width: 50%;
 }
-
+.btr {
+    border: 2px solid #000000;
+    margin-bottom: 8px;/*
+    -webkit-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);*/
+}
+figcaption {
+    margin-left: 200px;
+}
+h4 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+img {
+    padding: 5px;
+    margin-left: -10px;
+}
+aside {
+    text-align: justify;
+}
 
 /* ==========================================================================
    Media Queries

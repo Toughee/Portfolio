@@ -6,5 +6,5 @@
 ```
 Bootstrap
 Animate.css
-Iniatializr
+Initializr
 ```
