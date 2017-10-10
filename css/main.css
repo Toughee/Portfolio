@@ -197,7 +197,12 @@ img {
 .works {
     height: 50%;
     width: 50%;
-}
+}/*
+.ciosnsn {
+    float: left;
+    margin-left: 100px;
+    margin-top: -50px;
+}*/
 .btr {
     border: 2px solid #000000;
     margin-bottom: 8px;/*
