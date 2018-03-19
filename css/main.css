@@ -2,9 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
 
-@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
-
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+@import url('https://fonts.googleapis.com/css?family=Sarpanch');
 
 html {
     color: #222;
@@ -15,9 +13,6 @@ html {
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
-}
-::-webkit-scrollbar {
-    display: none;
 }
 
 ::selection {
@@ -75,22 +70,22 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Theme
    =================== */
 
 .header-container {
-    border-bottom: 10px solid #e44d26;
+    border-bottom: 5px solid #061739;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 15px solid #061739;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #45A1EA;
+    background: #4896CF;
 }
 
 .title {
@@ -109,15 +104,14 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     padding: 10px 0;
-
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-
     color: white;
-    background: #e44d26;
+    background: #061739;
+    right: 0;
 }
 
 nav a:hover,
@@ -168,62 +162,50 @@ nav a:hover {
 .subber-title,
 h1,
 h3 {
-    padding-top: 8px;
+    padding-top: 15px;
     font-family: 'Modak', cursive;
-}
-.subber-title {
-    font-size: 4rem;
-}
-.personl-desc {
-    font-family: 'Encode Sans Expanded', sans-serif;
-    margin-top: -5px;
+    font-weight: lighter;
+    font-size: 300%;
 }
 li {
     font-family: 'Righteous', cursive;
 }
+.samples {
+    margin: 1px 30px 10px 30px;
+    border: 3px solid #061739;
+    text-align: center;
+    padding: 15px 15px -10px 15px;
+    overflow: auto;
+    clear: both;
+    background: #FFFFFF;
+}
+
 title {
     font-family: 'Impact';
 }
 img {
-    padding-top: 5px;
+    padding-top: 10px;
 }
-.desc {
+.desc,
+.desctitle {
     color: #000;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Sarpanch', sans-serif;
+
 }
-.desdata {
-    margin-left: 20px;
+.desctitle {
+    font-weight: bold;
 }
-.works {
-    height: 50%;
-    width: 50%;
-}/*
-.ciosnsn {
-    float: left;
-    margin-left: 100px;
-    margin-top: -50px;
-}*/
-.btr {
-    border: 2px solid #000000;
-    margin-bottom: 8px;/*
-    -webkit-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 1px 0px rgba(0,0,0,0.75);*/
+.worklink {
+    padding-top-top: -500px;
 }
-figcaption {
-    margin-left: 200px;
+p {
+
+    font-family: 'Oxygen', sans-serif;
 }
-h4 {
-    margin-top: 50px;
-    margin-left: 20px;
-}
-img {
-    padding: 5px;
-    margin-left: -10px;
-}
-aside {
-    text-align: justify;
-}
+
+
+
+
 
 /* ==========================================================================
    Media Queries
