@@ -1,10 +1,8 @@
 
-# Repository for my personal portfolio
-
-## Tools used:
-
+## Repository for my Portfolio 
+### Tools used:
 ```
 Bootstrap
 Animate.css
-Initializr
+Iniatializr
 ```
