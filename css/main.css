@@ -171,10 +171,10 @@ li {
     font-family: 'Righteous', cursive;
 }
 .samples {
-    margin: 1px 30px 10px 30px;
+    margin: 1px 20px 10px 20px;
     border: 3px solid #061739;
     text-align: center;
-    padding: 15px 15px -10px 15px;
+    padding: -5px 15px -50px 15px;
     overflow: auto;
     clear: both;
     background: #FFFFFF;
