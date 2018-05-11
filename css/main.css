@@ -203,7 +203,9 @@ p {
 
     font-family: 'Oxygen', sans-serif;
 }
-
+nav ul li a {
+    text-decoration: none;
+}
 
 
 
