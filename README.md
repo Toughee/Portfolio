@@ -4,6 +4,6 @@
 ```
 Bootstrap
 Animate.css
-Iniatializr
-Illustrator
+Initializr
+Adobe Creative Suite
 ```
