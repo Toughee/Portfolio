@@ -1,8 +1,6 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-@import url('https://fonts.googleapis.com/css?family=Modak|Righteous');
-
-@import url('https://fonts.googleapis.com/css?family=Sarpanch');
+@import url('https://fonts.googleapis.com/css?family=Modak|Oxygen|Righteous|Sarpanch');
 
 html {
     color: #222;
@@ -65,7 +63,7 @@ body {
 }
 
 .wrapper {
-    width: 90%;
+    width: 70%;
     margin: 0 5%;
 }
 
@@ -120,7 +118,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* ==============
@@ -130,11 +128,9 @@ nav a:hover {
 .main {
     padding: 30px 0;
 }
-
 .main article h1 {
     font-size: 2em;
 }
-
 .main aside {
     color: white;
     padding: 0px 5% 10px;
@@ -166,6 +162,7 @@ h3 {
     font-family: 'Modak', cursive;
     font-weight: lighter;
     font-size: 300%;
+    text-align: center;
 }
 li {
     font-family: 'Righteous', cursive;
@@ -175,11 +172,10 @@ li {
     border: 3px solid #061739;
     text-align: center;
     padding: -5px 15px -50px 15px;
-    overflow: auto;
+    overflow: hidden;
     clear: both;
     background: #FFFFFF;
 }
-
 title {
     font-family: 'Impact';
 }
@@ -191,7 +187,8 @@ img {
 .desctitle {
     color: #000;
     font-family: 'Sarpanch', sans-serif;
-
+    font-size: 18px;
+    text-align: center;
 }
 .desctitle {
     font-weight: bold;
@@ -200,15 +197,13 @@ img {
     padding-top-top: -500px;
 }
 p {
-
     font-family: 'Oxygen', sans-serif;
-}
-nav ul li a {
-    text-decoration: none;
+    text-align: justify;
 }
 
-
-
+.persc {
+    text-align: center;
+}
 
 /* ==========================================================================
    Media Queries
@@ -222,9 +217,9 @@ nav ul li a {
 
     nav a {
         float: left;
-        width: 27%;
+        width: 26%;
         margin: 0 1.7%;
-        padding: 25px 2%;
+        padding: 18px 2%;
         margin-bottom: 0;
     }
 
@@ -297,7 +292,7 @@ nav ul li a {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 1300px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }

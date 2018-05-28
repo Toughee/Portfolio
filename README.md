@@ -5,5 +5,4 @@
 Bootstrap
 Animate.css
 Initializr
-Adobe Creative Suite
 ```
