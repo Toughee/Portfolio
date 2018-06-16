@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-@import url('https://fonts.googleapis.com/css?family=Modak|Oxygen|Righteous|Sarpanch');
+@import url('https://fonts.googleapis.com/css?family=Modak|Oxygen|Righteous|Sarpanch|Yanone+Kaffeesatz');
 
 html {
     color: #222;
@@ -77,7 +77,7 @@ body {
 
 .footer-container,
 .main aside {
-    border-top: 15px solid #061739;
+    border-top: 5px solid #061739;
 }
 
 .header-container,
@@ -168,12 +168,13 @@ li {
 }
 .samples {
     margin: 1px 20px 10px 20px;
-    border: 3px solid #061739;
+    border: 0.5px solid #061739;
     text-align: center;
     padding: -5px 15px -50px 15px;
     overflow: hidden;
     clear: both;
-    background: #FFFFFF;
+    background: #F5F5F5;
+    
 }
 title {
     font-family: 'Impact';
@@ -185,8 +186,8 @@ img {
 .desc,
 .desctitle {
     color: #000;
-    font-family: 'Sarpanch', sans-serif;
-    font-size: 18px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
     text-align: center;
 }
 .desctitle {
@@ -281,13 +282,15 @@ button i:a hover {
    ============ */
 
     .main article {
-        float: left;
+        float: right;
         width: 57%;
     }
 
     .main aside {
-        float: right;
-        width: 40%;
+        float: left;
+        width: 42%;
+        padding-bottom: 10px;
+        margin-left: 10px;
     }
 }
 
