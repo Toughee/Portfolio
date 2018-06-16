@@ -4,5 +4,5 @@
 ```
 Bootstrap
 Animate.css
-Initializr
+HTML5 Boilerplate
 ```
