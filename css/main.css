@@ -208,8 +208,9 @@ button {
     background: #FFFFFF;
 
 }
-button i:a hover {
+button: a i hover {
     text-decoration: none;
+    color: #000000;
 }
 
 /* ==========================================================================
