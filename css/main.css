@@ -54,6 +54,7 @@ textarea {
 }
 
 
+
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
@@ -66,6 +67,7 @@ body {
     width: 70%;
     margin: 0 5%;
 }
+
 
 /* ===================
     ALL: Theme
@@ -89,6 +91,7 @@ body {
 .title {
     color: white;
 }
+
 
 /* ==============
     MOBILE: Menu
@@ -120,6 +123,7 @@ nav a:hover {
     text-decoration: none;
 }
 
+
 /* ==============
     MOBILE: Main
    ============== */
@@ -127,9 +131,11 @@ nav a:hover {
 .main {
     padding: 30px 0;
 }
+
 .main article h1 {
     font-size: 2em;
 }
+
 .main aside {
     color: white;
     padding: 0px 5% 10px;
@@ -141,6 +147,7 @@ nav a:hover {
     bottom: 0%;
 }
 
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -148,6 +155,7 @@ nav a:hover {
 .ie7 .title {
     padding-top: 20px;
 }
+
 
 /* ==========================================================================
    Author's custom styles
@@ -161,9 +169,11 @@ h3 {
     font-size: 4.2em;
     text-align: center;
 }
+
 li {
     font-family: 'Righteous', cursive;
 }
+
 .samples {
     margin: 1px 20px 10px 20px;
     border: 0.5px solid #061739;
@@ -173,15 +183,17 @@ li {
     clear: both;
     background: #F5F5F5;
     border-radius: 2px;
-    
 }
+
 title {
     font-family: 'Impact';
 }
+
 img {
     padding-top: 10px;
     margin: 10px;
 }
+
 .inf {
     margin-bottom: 20px;
 }
@@ -193,12 +205,15 @@ img {
     font-size: 20px;
     text-align: center;
 }
+
 .desctitle {
     font-weight: bold;
 }
+
 .worklink {
     padding-top-top: -500px;
 }
+
 p {
     font-family: 'Oxygen', sans-serif;
     text-align: justify;
@@ -208,38 +223,40 @@ p {
 .persc {
     text-align: center;
 }
+
 button {
-    background: #FFFFFF; 
+    background: #FFFFFF;
     border-radius: 8px;
     padding: 5px;
-
 }
+
 button: a i hover {
     text-decoration: none;
     color: #000000;
 }
+
 #workicon {
     padding-bottom: 20px;
 }
+
 @media (max-width: 600px) {
     .main-container {
-        margin-left: 50px; 
+        margin-left: 50px;
     }
     li {
         margin: 0px -12px 0px 50px;
     }
 }
 
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 480px) {
-
-/* ====================
+    /* ====================
     INTERMEDIATE: Menu
    ==================== */
-
     nav a {
         float: left;
         width: 26%;
@@ -255,11 +272,9 @@ button: a i hover {
     nav li:last-child a {
         margin-right: 0;
     }
-
-/* ========================
+    /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
-
     nav ul li {
         display: inline;
     }
@@ -270,22 +285,18 @@ button: a i hover {
 }
 
 @media only screen and (min-width: 768px) {
-
-/* ====================
+    /* ====================
     WIDE: CSS3 Effects
    ==================== */
-
     .header-container,
     .main aside {
         -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+        -moz-box-shadow: 0 5px 10px #aaa;
+        box-shadow: 0 5px 10px #aaa;
     }
-
-/* ============
+    /* ============
     WIDE: Menu
    ============ */
-
     .title {
         float: left;
     }
@@ -294,11 +305,9 @@ button: a i hover {
         float: right;
         width: 38%;
     }
-
-/* ============
+    /* ============
     WIDE: Main
    ============ */
-
     .main article {
         float: right;
         width: 57%;
@@ -313,16 +322,16 @@ button: a i hover {
 }
 
 @media only screen and (min-width: 1140px) {
-
-/* ===============
+    /* ===============
     Maximal Width
    =============== */
-
     .wrapper {
-        width: 1300px; /* 1140px - 10% for margins */
+        width: 1300px;
+        /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
+
 
 /* ==========================================================================
    Helper classes
@@ -371,6 +380,7 @@ button: a i hover {
 .clearfix {
     *zoom: 1;
 }
+
 
 /* ==========================================================================
    Print styles
