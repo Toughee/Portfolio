@@ -258,7 +258,7 @@ nav a {
 }
 .herm {
     padding: 0px 100px 0px 100px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 #pefd,
 #pefd a {
@@ -272,11 +272,15 @@ nav a {
     display: inline-block;
     position: static;
     z-index: -1;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none;
 }
 #res {
     text-align: justify;
 }
-cite a{
+cite a,
+a {
     text-decoration: none;
     
 }
