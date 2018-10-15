@@ -1,6 +1,8 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-@import url('https://fonts.googleapis.com/css?family=Modak|Oxygen|Righteous|Sarpanch|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Modak|Oxygen|Yanone+Kaffeesatz');
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:700,700i');
 
 html {
     color: #222;
@@ -53,8 +55,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
@@ -68,13 +68,12 @@ body {
     margin: 0 5%;
 }
 
-
 /* ===================
     ALL: Theme
    =================== */
 
 .header-container {
-    border-bottom: 5px solid #061739;
+    border-bottom: 8px solid #061739;
 }
 
 .footer-container,
@@ -91,7 +90,6 @@ body {
 .title {
     color: white;
 }
-
 
 /* ==============
     MOBILE: Menu
@@ -156,97 +154,217 @@ nav a:hover {
     padding-top: 20px;
 }
 
-
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
+   ========================================================================== 
+*/
 
-.subber-title,
-h3 {
-    padding-top: 15px;
-    font-family: 'Modak', cursive;
-    font-weight: lighter;
-    font-size: 4.2em;
+
+.bouts, 
+.bouts2 {
     text-align: center;
+    margin: 40px;
+}
+.bouts2 {
+    margin: 10px;
+    padding-bottom: -20px;
+}
+#names {
+    margin: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sim {
+    border: 1px solid #000000;
+    padding-right: -10px; 
 }
 
 li {
-    font-family: 'Righteous', cursive;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.samples {
-    margin: 1px 20px 10px 20px;
-    border: 0.5px solid #061739;
-    text-align: center;
-    padding: -5px 15px -50px 15px;
-    overflow: hidden;
-    clear: both;
-    background: #F5F5F5;
-    border-radius: 2px;
-}
-
-title {
-    font-family: 'Impact';
-}
-
-img {
-    padding-top: 10px;
-    margin: 10px;
-}
-
-.inf {
-    margin-bottom: 20px;
-}
-
+/*
+---------------------------------------
+                Fonts
+---------------------------------------
+*/
 .desc,
 .desctitle {
     color: #000;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 20px;
+    margin: 0px 0px -1px 0px;
+}
+
+.desc {
+    font-size: 1rem;
     text-align: center;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .desctitle {
     font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.worklink {
-    padding-top-top: -500px;
+.linq {
+    text-align: center;
+    font-size: 1rem;
+}
+
+h1 {
+    padding: 50px 0px -5px;
 }
 
 p {
     font-family: 'Oxygen', sans-serif;
-    text-align: justify;
-    padding-top: 10px;
-}
-
-.persc {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: -5px;
 }
 
-button {
-    background: #FFFFFF;
-    border-radius: 8px;
-    padding: 5px;
-}
-
-button: a i hover {
+figure a,
+h5 a,
+img a,
+nav a,
+li a,
+p a: hover,
+nav a {
     text-decoration: none;
-    color: #000000;
+}
+/*
+------------------------------------------------
+                Spaces
+------------------------------------------------
+*/
+
+.cren {
+    padding-top: 5px;
+    margin: 10px;
+    width: 135px;
+    height: 120px;
 }
 
-#workicon {
-    padding-bottom: 20px;
+.lo {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 50px; 
 }
-
+.puni {
+    padding-bottom: -20px; 
+}
+.herm {
+    padding: 0px 100px 0px 100px;
+    font-size: 1.1rem;
+}
+#pefd,
+#pefd a {
+    float: right;
+    text-decoration: none;
+    text-align: right;
+    z-index: 2;
+}
+#mediasoc {
+    float: left;
+    display: inline-block;
+    position: static;
+    z-index: -1;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#res {
+    text-align: justify;
+}
+cite a,
+a {
+    text-decoration: none;
+    
+}
+/*
 @media (max-width: 600px) {
     .main-container {
         margin-left: 50px;
     }
     li {
         margin: 0px -12px 0px 50px;
+    } .main aside {
+        padding: 20px;
+    } .samples {
+        padding: 15px;
     }
 }
+
+@media (max-width: 320px) {
+    .wrapper {
+        width: 295px;
+        margin-left: -35px; 
+    }
+}
+@media (max-width: 480px) {
+    .nav a {
+        padding: 16px 6px 21px 16px 107%;
+    }
+    .main wrapper {
+        width: 400px;
+        margin-left: -20px;
+    } .header-container {
+        padding: 50px auto;
+    }
+}*/
+
+
+/*
+nav bar issue
+@media only screen and (min-width: 480px) {
+    nav a {
+        width: 23%;
+    }
+}
+*/
+
+
+/*
+what's making things flex wrongly
+-webkit-flex-basis: 500px;
+        flex-basis: 500px;
+*/
+
+
+/*
+@media (max-width: 768px) {
+    .wrapper {
+        width: 93%;
+        margin-left: -5px;
+        width: 1000px;
+    } .col-md {
+        margin-left: -5px;
+        flex-basis: 0;
+    }
+}*/
+
+
+/*
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 850px;
+    } .col-md {
+        -webkit-flex-grow: 100px;
+        flex-grow: 100px;
+        -webkit-flex-basis: 500px;
+        flex-basis: 500px;
+        } 
+}
+*/
+
+
+/*@media (max-width: 1200px) {
+
+}
+*/
 
 
 /* ==========================================================================
@@ -259,7 +377,7 @@ button: a i hover {
    ==================== */
     nav a {
         float: left;
-        width: 26%;
+        width: 24%;
         margin: 0 1.7%;
         padding: 18px 2%;
         margin-bottom: 0;
@@ -310,7 +428,7 @@ button: a i hover {
    ============ */
     .main article {
         float: right;
-        width: 57%;
+        width: 45%;
     }
 
     .main aside {
@@ -318,6 +436,7 @@ button: a i hover {
         width: 42%;
         padding-bottom: 10px;
         margin-left: 10px;
+        /*shorten margins*/
     }
 }
 
@@ -331,6 +450,7 @@ button: a i hover {
         margin: 0 auto;
     }
 }
+
 
 
 /* ==========================================================================
@@ -380,6 +500,7 @@ button: a i hover {
 .clearfix {
     *zoom: 1;
 }
+
 
 
 /* ==========================================================================
